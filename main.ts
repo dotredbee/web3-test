@@ -1,8 +1,7 @@
 import express, { Express, NextFunction, Request, Response } from "express"
 import { createServer } from "http"
 import dotenv from "dotenv"
-import connectWeb3 from "./modules/web3.module"
-
+import connectWeb3 from "./models/web3.model"
 
 dotenv.config()
 
